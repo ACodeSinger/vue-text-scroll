@@ -1,8 +1,8 @@
 
-import textScroll from "./components/vue-text-scroll.vue";
+import textScroll from './components/vue-text-scroll.vue';
 
-textScroll.install = function (Vue) {
+textScroll.install = (Vue) => {
   Vue.component('text-scroll', textScroll);
-}
+};
 
 export default textScroll;

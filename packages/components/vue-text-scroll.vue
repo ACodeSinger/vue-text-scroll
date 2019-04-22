@@ -27,11 +27,13 @@ export default {
     },
     background: {
       type: String,
-      default: '#ccc',
     },
     color: {
       type: String,
-      default: '#fff',
+    },
+    textAlign: {
+      type: String,
+      default: 'left',
     },
     textGroup: {
       type: Array,

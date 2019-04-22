@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <span>文字滚动组件</span>
-    <text-scroll :text-group="textGroup"></text-scroll>
+    <text-scroll :text-group="textGroup" letter-spacing="23"></text-scroll>
   </div>
 </template>
 
@@ -16,10 +16,10 @@ export default {
   data() {
     return {
       textGroup: [
-        '夕阳之歌',
-        '女人花',
-        '明天你要嫁给我',
-        '似是故人来',
+        '1.夕阳之歌',
+        '2.女人花',
+        '3.明天你要嫁给我',
+        '4.似是故人来',
       ],
     };
   },
