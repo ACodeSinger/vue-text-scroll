@@ -6,7 +6,9 @@
 </template>
 
 <script>
-import textScroll from '../packages/components/vue-text-scroll.vue';
+// import textScroll from '../packages/components/vue-text-scroll.vue';
+import textScroll from '../lib/textScroll.umd.min';
+// import textScroll from '../lib';
 
 export default {
   name: 'app',

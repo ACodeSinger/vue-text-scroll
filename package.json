@@ -1,8 +1,8 @@
 {
-  "name": "vue-text-scroll",
-  "version": "0.1.0",
+  "name": "text-scroll",
+  "version": "0.1.1",
   "description": "## Project setup ``` npm install ```",
-  "main": "lib/textScroll.min.js",
+  "main": "lib/textScroll.umd.min.js",
   "keywords": [
     "vue",
     "text-scroll"
