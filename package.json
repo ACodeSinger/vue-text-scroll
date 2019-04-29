@@ -1,12 +1,16 @@
 {
   "name": "text-scroll",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "## Project setup ``` npm install ```",
   "main": "lib/textScroll.umd.min.js",
   "keywords": [
     "vue",
     "text-scroll"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ACodeSinger/vue-text-scroll"
+  },
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
